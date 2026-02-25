@@ -686,7 +686,7 @@ Showing top 10 nodes out of 60
 - cum%：当前函数加上调用当前函数的函数占用CPU的总耗时百分比
 - 最后一列：函数名称
 
-通过结果我们可以看出, 该程序的大部分cpu性能消耗在 `main.getSoneBytes()`方法中,其中math/rand取随机数消耗比较大.
+通过结果我们可以看出, 该程序的大部分cpu性能消耗在 `main.getSomeBytes()`方法中,其中math/rand取随机数消耗比较大.
 
 
 
